@@ -18,9 +18,8 @@ https://api.telegram.org/bot<token>/setwebhook?url=https://name-name.rhcloud.com
 
 Example: https://api.telegram.org/bot272831745:AAHqs25sFXDj2Gan-gjH9KdDoOkHcl8JyTo/setwebhook?url=https://Dontedit-saz-mutepuker.rhcloud.com/Luncher.php
 ```
+<b>سازنده</b> > [پارسا غفوري](https://telegram.me/parsaghafoori)
 
-<b>Developer</b> > [@MutePuker](https://telegram.me/MutePuker)
+<b>كانال</b> > [ANTI SPAM GROUP](https://telegram.me/anti_spam_group)
 
-<b>Channel</b> > [@MuteTeam](https://telegram.me/MuteTeam)
-
-<b>Reports</b> > [@MutePukerBot](https://telegram.me/MutePukerBot)
+<b>پيام رسان</b> > [پيامرسان پارسا غفوري](https://telegram.me/parsa_masagerbot)
