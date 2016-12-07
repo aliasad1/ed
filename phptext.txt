@@ -1,7 +1,7 @@
 ﻿<?php
 ob_start();
-define('BOT_TOKEN', '**TOKEN**');
-$admin = "**ADMIN**";
+define('BOT_TOKEN', '280119542:AAESjBHJ40I38QjI_tZaakJH0NuYq9sA11E');
+$admin = "67516785";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
@@ -30,7 +30,7 @@ if (isset($update->edited_message)){
   $eid = $editm->message_id;
   $edname = $editm->from->first_name;
   $jsu = json_decode(file_get_contents(__DIR__.'/users/'.$eid.'.json'));
-  $text = "<b>".$edname."</b>\nمن دیدم که چی گفتی بازم ادیت کنی میفهمم
+  $text = "<b>".$edname."</b>\nمن دیدم که چی گفتی ! مامان روبوت بهم ياد داده!! بازم ادیت کنی میفهمم
   گفتی:
 ".$jsu;
   $id = $update->edited_message->chat->id;
@@ -53,10 +53,10 @@ if (isset($update->edited_message)){
     'reply_markup'=>json_encode([
       'inline_keyboard'=>[
         [
-          ['text'=>'➕ ربات اديت نكن خود را بسازيد ','url'=>'https://telegram.me/EditNakonCrBot']
+          ['text'=>'➕ ربات اديت نكن خود را بسازيد ','url'=>'https://telegram.me/dontedbot']
         ],
         [
-          ['text'=>'ربات ⭕️❌ خود را بسازيد','url'=>'https://telegram.me/XoSazBot']
+          ['text'=>'ربات ⭕️❌ خود را بسازيد','url'=>'https://telegram.me/xogamesmakebot']
         ]
       ]
     ])
