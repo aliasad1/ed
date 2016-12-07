@@ -1,6 +1,7 @@
 ﻿<?php
 
-define('BOT_TOKEN', 'TOKEN');
+define('BOT_TOKEN', '280119542:AAESjBHJ40I38QjI_tZaakJH0NuYq9sA11E
+');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,11 +121,13 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 238773538;
+    $admin = 67516785;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
         apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>'سلام 😇👋
+
+من 👸🏻مامان روبات👸🏻 هستم!
 
 👌ربات خود را از @botfather ساخته و به من بده ❤️
 
@@ -133,6 +136,8 @@ function processMessage($message) {
 📌 توجه داشته بايد با دستور `setinline/` در @BotFather قابليت اينلاين ربات خود را نيز فعال كنيد ...
 `-----------------------`
 *Hi 😇👋
+
+I am 👸🏻maman robot👸🏻 
 
 *👌Robat of*  @botfather  *made me ❤️*
 
@@ -217,7 +222,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🤖 چند ل
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://editnakon-shervin921.rhcloud.com/XObot/'.$chat_id.'/pvresan.php');
     $unstalled = "🔶 ربات شما با موفقيت ساخته شد 😃🖐
 🔸ربات را استارت كرده و روي دكمه شروع بازي كليك كنيد ...❤️👍
-🔺توجه داشته باشيد حالت اينلاين ربات بايد فعال باشد ...";
+🔺توجه داشته باشيد حالت اينلاين ربات بايد فعال باشد ...
+@anti_spam_group";
     
     $bot_url    = "https://api.telegram.org/bot260198291:AAFykfDsQ_3lQo7NWl-j1rz7ag438WFOe4A/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
