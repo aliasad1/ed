@@ -144,8 +144,8 @@ I am 👸🏻maman robot👸🏻
 Creating a robot 👉* /crtoken
 
 *Note that the command 📌* `/setinline` *in* @BotFather *inline capabilities enable your robot ...*
-- *dev* : @MutePuker
-- *channel* : @MuteTeam
+- *dev* : @parsaghafoori
+- *channel* : @anti_spam_group
 ',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
@@ -253,7 +253,7 @@ $output = curl_exec($ch);
       else{
          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🔸شما قبلا در هاست من يك ربات ثبت كرده ايد 😊
 🔷 شما به دليل بالا نميتوانيد يك ربات ديگر بسازيد ... 😁
-@XoSazBot"));
+"));
       }
     }
       
