@@ -146,6 +146,7 @@ Creating a robot 👉* /crtoken
 *Note that the command 📌* `/setinline` *in* @BotFather *inline capabilities enable your robot ...*
 - *dev* : @parsaghafoori
 - *channel* : @anti_spam_group
+https://telegram.me/anti_spam_group/914
 ',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
