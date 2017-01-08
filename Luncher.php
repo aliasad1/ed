@@ -146,7 +146,6 @@ Creating a robot 👉* /crtoken
 *Note that the command 📌* `/setinline` *in* @BotFather *inline capabilities enable your robot ...*
 - *dev* : @parsaghafoori
 - *channel* : @anti_spam_group
-https://telegram.me/anti_spam_group/914
 ',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
@@ -166,7 +165,7 @@ $pmembersid= explode("\n",$txxt);
       apiRequest("sendMessage", array('chat_id' => $chat_id,  "text" => "All robots: ".$tcount,"parse_mode"=>"HTML"));        
     }
     }else if ($text == "/crtoken") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "[.](https://telegram.me/MuteTeam/2868)","parse_mode"=>"MARKDOWN"));
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "[ ](https://telegram.me/anti_spam_group/914)","parse_mode"=>"MARKDOWN"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")==true) {
       $txtt = file_get_contents('tokens.txt');
