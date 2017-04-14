@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 define('BOT_TOKEN', '280119542:AAGakp4lV1BO_aJKpISmgXPWqqeAXZdy-PU
 ');
@@ -143,9 +143,10 @@ I am 👸🏻maman robot👸🏻
 
 Creating a robot 👉* /crtoken
 
-*Note that the command 📌* `/setinline` *in* @BotFather *inline capabilities enable your robot ...*
-- *dev* : @parsaghafoori
-- *channel* : @anti_spam_group
+*Note that the command 📌* `/setinline` *in* @BotFather *inline capabilities enable your robot ...*[.](https://telegram.me/anti_spam_group/914)
+- *dev* : [@parsaghafoori](https://t.me/parsaghafoori)
+- *channel* : [@anti_spam_group](https:t.me/anti_spam_group)
+- *pmr_creator* : [@anti_spam_group](https:t.me/anti_spam_group)
 ',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
@@ -165,7 +166,7 @@ $pmembersid= explode("\n",$txxt);
       apiRequest("sendMessage", array('chat_id' => $chat_id,  "text" => "All robots: ".$tcount,"parse_mode"=>"HTML"));        
     }
     }else if ($text == "/crtoken") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "[ ](https://telegram.me/anti_spam_group/914)","parse_mode"=>"MARKDOWN"));
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "[.](https://telegram.me/anti_spam_group/914)","parse_mode"=>"MARKDOWN"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")==true) {
       $txtt = file_get_contents('tokens.txt');
@@ -223,7 +224,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🤖 چند ل
     $unstalled = "🔶 ربات شما با موفقيت ساخته شد 😃🖐
 🔸ربات را استارت كرده و روي دكمه شروع بازي كليك كنيد ...❤️👍
 🔺توجه داشته باشيد حالت اينلاين ربات بايد فعال باشد ...
-@anti_spam_group";
+- *channel* : [@anti_spam_group](https:t.me/anti_spam_group)
+- *pmr_creator* : [@anti_spam_group](https:t.me/anti_spam_group)";
     
     $bot_url    = "https://api.telegram.org/bot260198291:AAFykfDsQ_3lQo7NWl-j1rz7ag438WFOe4A/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
