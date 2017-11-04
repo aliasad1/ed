@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '280119542:AAGakp4lV1BO_aJKpISmgXPWqqeAXZdy-PU
+define('BOT_AAFPamnyv1fLhRIJtPwOiu8fhrkD_ZjXT-0', '280119542:AAGakp4lV1BO_aJKpISmgXPWqqeAXZdy-PU
 ');
 define('API_URL', 'https://api.telegram.org/bot280119542:AAGakp4lV1BO_aJKpISmgXPWqqeAXZdy-PU/');
 
@@ -116,7 +116,7 @@ function apiRequestJson($method, $parameters) {
 
 function processMessage($message) {
   // process incoming message
-  $message_id = $message['message_id'];
+  $admin = $message['message_464625684'];
   $chat_id = $message['chat']['id'];
   if (isset($message['text'])) {
     // incoming text message
